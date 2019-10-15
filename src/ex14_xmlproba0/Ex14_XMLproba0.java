@@ -46,6 +46,11 @@ public class Ex14_XMLproba0 {
         xmlSW1.writeEndElement();
         xmlSW1.writeEndElement();
         xmlSW1.writeEndDocument();
+        
+        //cerrar!!
+        xmlSW1.close();
+     
+        
 
     }
 
