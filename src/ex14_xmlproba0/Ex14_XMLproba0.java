@@ -11,7 +11,7 @@ public class Ex14_XMLproba0 {
 
     public static void main(String[] args) throws IOException, XMLStreamException {
 
-        File fich1 = new File("C:\\Users\\luis-\\Desktop\\2ºDAM\\AD\\ex14\\xmlproba0.xml");
+        File fich1 = new File("/home/oracle/Desktop/ex14/xmlproba0.xml");
         FileWriter fich1FW = new FileWriter(fich1);
 
         XMLOutputFactory xmlOF1 = XMLOutputFactory.newInstance();
